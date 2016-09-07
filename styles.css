@@ -1,0 +1,51 @@
+body {
+	background-color: blue;
+	font-family: arial;
+}
+#logo{	
+	height: 35px;
+	margin-left: 45%;
+	margin-right: 45%;
+}
+.sign {
+	width: 400px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.sign h1 {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.sign input {
+	height: 55px;
+	width: 320px;
+	box-sizing: border-box;
+	border: 2px solid grey;
+	padding:15px;
+}
+.form > a {
+	text-align: center;
+}
+.click {
+	width: 320px;
+	height: 55px;
+	border: 2px solid green;
+	color: white;
+	background-color: green;
+	text-align: center;
+	padding: 15px;
+}
+#log {
+	text-align: center;
+	color: white
+}
+#log a{
+	text-decoration: none;
+	color: white;
+	text-decoration: underline;
+}
