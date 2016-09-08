@@ -15,16 +15,16 @@
 	<main>
 		<div class="sign">
 			<h1>Sign up</h1>
-			<form class="form">
-				<label>Email</label><br>
-				<input type="text" name="email" placeholder="fubar@snafu.com" required="true"><br>
-				<label>Password</label><br>
-				<input type="text" name="password" placeholder="1234passwr0d" required="true"><br>
+			<form class="form" action="/signup/" method="post">
+				<label for="email">Email</label><br>
+				<input type="email" name="email" placeholder="fubar@snafu.com" id="email" required/><br>
+				<label for="password">Password</label><br>
+				<input type="password" name="password" placeholder="1234passwr0d" id="password" required/><br>
 				<button class="click">Sign up</button>
-				<a href="">Forgot password?</a>
+				<p><a href="/forgot-password/new">Forgot password?</a></p>
 			</form>
 		</div>
-		<p id="log">Already have an account? <a href="">Log in</a></p>
+		<p id="log">Already have an account? <a href="/login">Log in</a></p>
 	</main>
 
 </body>
